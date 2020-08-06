@@ -15,10 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
-Route::get('/detail', function () {
-    return view('detail');
-});
+})->name('show.home');
+Route::get('savedata', function () {
+    return view('savedata');
+})->name('detali.hardandsoft');
 
 Auth::routes();
 

@@ -30,7 +30,7 @@
                 <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
                     <div class="overlay"></div>
                     <div class="text text-center p-4">
-                        <h3><a href="#"> Data  &amp; Hardware/Software</a></h3>
+                    <h3><a href="{{route('detali.hardandsoft')}}"> Data  Hardware &amp; Software</a></h3>
                         <span>Web Design</span>
                     </div>
                 </div>
