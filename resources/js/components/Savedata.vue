@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-end justify-content-center">
         <div class="col-md-9 ftco-animate pb-5 text-center">
-        <p class="breadcrumbs"><span class="mr-2"><a href="http://localhost/portfolio/public/">Home  <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="#">Data Hardware & Software</a></span></p>
+        <p class="breadcrumbs"><span class="mr-2"><a href="/">Home  <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="#">Data Hardware & Software</a></span></p>
 
        </div>
      </div>
@@ -16,10 +16,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 ftco-animate">
-          <h2 class="mb-3"> ระบบสำหรับเก็บข้อมูล project เเยกรายการของ hardware/software</h2>
+          <!-- <h2 class="mb-3"> ระบบสำหรับเก็บข้อมูล project เเบ่งประเภท hardware/software</h2> -->
 
           <p>
-            <img src="images/image_3.jpg" alt="" class="img-fluid">
+            <img src="images/datasave_header.jpg" alt="" class="img-fluid">
           </p>
 
         <div class="ftco-animate">
@@ -30,9 +30,7 @@
           <p>4. ระบบจัดการ ลูกค้า</p>
           <p>5. ระบบจัดการผู้ใช้งาน</p>
           <p>6. รายงานสรุป โปรเจค  hardware/software </p>
-        </div>
 
-          <div class="ftco-animate">
           <h2 class="mb-3 mt-5">รายละเอียดด้านการพัฒนา</h2>
           <p>1. Bootstrap 4</p>
           <p>2. Codeigniter</p>

@@ -19,6 +19,10 @@ Route::get('/', function () {
 Route::get('savedata', function () {
     return view('savedata');
 })->name('detali.hardandsoft');
+Route::get('clocktime', function () {
+    return view('clocktime');
+})->name('detali.clocktime');
+
 
 Auth::routes();
 
