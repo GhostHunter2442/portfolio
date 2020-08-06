@@ -22,6 +22,7 @@
             <img src="images/image_3.jpg" alt="" class="img-fluid">
           </p>
 
+        <div class="ftco-animate">
           <h2 class="mb-3 mt-5">ความสามารถของระบบ</h2>
           <p>1. ระบบสร้างโปรเจค เก็บรายเเยกรายการ hardware/software</p>
           <p>2. ระบบ ค้นหารายละเอียดโปรเจค เเละ  hardware/software </p>
@@ -29,14 +30,18 @@
           <p>4. ระบบจัดการ ลูกค้า</p>
           <p>5. ระบบจัดการผู้ใช้งาน</p>
           <p>6. รายงานสรุป โปรเจค  hardware/software </p>
+        </div>
 
+          <div class="ftco-animate">
           <h2 class="mb-3 mt-5">รายละเอียดด้านการพัฒนา</h2>
           <p>1. Bootstrap 4</p>
           <p>2. Codeigniter</p>
           <p>3. jQuery</p>
           <p>4. javascript</p>
-          <p>5. ระบบจัดการผู้ใช้งาน</p>
-          <p>6. Mysql</p>
+
+          <p>5. Mysql</p>
+          </div>
+
 
 
 
@@ -82,6 +87,11 @@
           <carousel :data="data"></carousel>
 
         </div>
+
+            <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอใช้งาน</h3>
+        <youtube :video-id="videoId"   :player-vars="playerVars"></youtube>
+  </div>
       </div>
 
 
@@ -91,6 +101,7 @@
 
     </div>
 </template>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script>
 
  export default {
@@ -112,8 +123,16 @@
             '<div class="example-slide">   <img src="images/datasave/13.jpg" alt="" class="img-fluid"></div>',
             '<div class="example-slide">   <img src="images/datasave/14.jpg" alt="" class="img-fluid"></div>',
         ],
+        videoId: '4nd8fmUF8yg',
+
+    //    host: 'https://www.youtube.com',
+        playerVars: {
+        origin: window.location.origin, // or http(S)://your.domain.com
+        autoplay: 1
+      }
       };
     },
+
   };
 </script>
 <style>
@@ -127,4 +146,9 @@
     min-height: 30rem;
 
   }
+ /* iframe {
+  width: 100%;
+  height: 200%;
+   width: 650px; Also helpful. Optional.
+} */
 </style>
