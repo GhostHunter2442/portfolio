@@ -2913,6 +2913,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2939,6 +2947,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -39699,43 +39714,94 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "section",
+      "nav",
       {
-        staticClass: "hero-wrap hero-wrap-2",
-        staticStyle: { "background-image": "url('images/bg_4.jpg')" },
-        attrs: { "data-stellar-background-ratio": "0.5" }
+        staticClass:
+          "navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target",
+        attrs: { id: "ftco-navbar" }
       },
       [
-        _c("div", { staticClass: "overlay" }),
-        _vm._v(" "),
         _c("div", { staticClass: "container" }, [
+          _c(
+            "button",
+            {
+              staticClass:
+                "navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle",
+              attrs: {
+                type: "button",
+                "data-toggle": "collapse",
+                "data-target": "#ftco-nav",
+                "aria-controls": "ftco-nav",
+                "aria-expanded": "false",
+                "aria-label": "Toggle navigation"
+              }
+            },
+            [_c("span", { staticClass: "oi oi-menu" }), _vm._v(" Menu\n     ")]
+          ),
+          _vm._v(" "),
           _c(
             "div",
             {
-              staticClass:
-                "row no-gutters slider-text align-items-end justify-content-center"
+              staticClass: "collapse navbar-collapse",
+              attrs: { id: "ftco-nav" }
             },
             [
-              _c(
-                "div",
-                { staticClass: "col-md-9 ftco-animate pb-5 text-center" },
-                [
-                  _c("p", { staticClass: "breadcrumbs" }, [
-                    _c("span", { staticClass: "mr-2" }, [
-                      _c("a", { attrs: { href: "/" } }, [
-                        _vm._v("Home  "),
-                        _c("i", { staticClass: "fa fa-chevron-right" })
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "mr-2" }, [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v("Clock & Timer")
-                      ])
-                    ])
-                  ])
-                ]
-              )
+              _c("ul", { staticClass: "navbar-nav nav ml-auto" }, [
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#home-section" }
+                    },
+                    [_c("span", [_vm._v("Home")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#about-section" }
+                    },
+                    [_c("span", [_vm._v("About")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#skills-section" }
+                    },
+                    [_c("span", [_vm._v("Skills")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#projects-section" }
+                    },
+                    [_c("span", [_vm._v("Projects")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#contact-section" }
+                    },
+                    [_c("span", [_vm._v("Contact")])]
+                  )
+                ])
+              ])
             ]
           )
         ])
@@ -39822,7 +39888,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "tag-cloud-link",
-              attrs: { href: "https://product.dataghosthunter.com/" }
+              attrs: { href: "https://clocktime.dataghosthunter.com/" }
             },
             [_vm._v("Link Test Systems")]
           )
@@ -40003,43 +40069,94 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "section",
+      "nav",
       {
-        staticClass: "hero-wrap hero-wrap-2",
-        staticStyle: { "background-image": "url('images/bg_4.jpg')" },
-        attrs: { "data-stellar-background-ratio": "0.5" }
+        staticClass:
+          "navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target",
+        attrs: { id: "ftco-navbar" }
       },
       [
-        _c("div", { staticClass: "overlay" }),
-        _vm._v(" "),
         _c("div", { staticClass: "container" }, [
+          _c(
+            "button",
+            {
+              staticClass:
+                "navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle",
+              attrs: {
+                type: "button",
+                "data-toggle": "collapse",
+                "data-target": "#ftco-nav",
+                "aria-controls": "ftco-nav",
+                "aria-expanded": "false",
+                "aria-label": "Toggle navigation"
+              }
+            },
+            [_c("span", { staticClass: "oi oi-menu" }), _vm._v(" Menu\n     ")]
+          ),
+          _vm._v(" "),
           _c(
             "div",
             {
-              staticClass:
-                "row no-gutters slider-text align-items-end justify-content-center"
+              staticClass: "collapse navbar-collapse",
+              attrs: { id: "ftco-nav" }
             },
             [
-              _c(
-                "div",
-                { staticClass: "col-md-9 ftco-animate pb-5 text-center" },
-                [
-                  _c("p", { staticClass: "breadcrumbs" }, [
-                    _c("span", { staticClass: "mr-2" }, [
-                      _c("a", { attrs: { href: "/" } }, [
-                        _vm._v("Home  "),
-                        _c("i", { staticClass: "fa fa-chevron-right" })
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "mr-2" }, [
-                      _c("a", { attrs: { href: "#" } }, [
-                        _vm._v("Data Hardware & Software")
-                      ])
-                    ])
-                  ])
-                ]
-              )
+              _c("ul", { staticClass: "navbar-nav nav ml-auto" }, [
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#home-section" }
+                    },
+                    [_c("span", [_vm._v("Home")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#about-section" }
+                    },
+                    [_c("span", [_vm._v("About")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#skills-section" }
+                    },
+                    [_c("span", [_vm._v("Skills")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#projects-section" }
+                    },
+                    [_c("span", [_vm._v("Projects")])]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link",
+                      attrs: { href: "/#contact-section" }
+                    },
+                    [_c("span", [_vm._v("Contact")])]
+                  )
+                ])
+              ])
             ]
           )
         ])
