@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-end justify-content-center">
         <div class="col-md-9 ftco-animate pb-5 text-center">
-        <p class="breadcrumbs"><span class="mr-2"><a href="#">Home  <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="#">Data Hardware & Software</a></span></p>
+        <p class="breadcrumbs"><span class="mr-2"><a href="http://localhost/portfolio/public/">Home  <i class="fa fa-chevron-right"></i></a></span> <span class="mr-2"><a href="#">Data Hardware & Software</a></span></p>
 
        </div>
      </div>
@@ -78,21 +78,11 @@
 
 
         <div class="sidebar-box ftco-animate">
-          <h3 class="heading-sidebar">วีดีโอ</h3>
-          <a href="https://www.youtube.com/watch?v=4nd8fmUF8yg"><span class="icon-calendar"></span>Link</a>
+          <h3 class="heading-sidebar">ตัวอย่างภาพโปรเจค</h3>
+          <carousel :data="data"></carousel>
+
         </div>
       </div>
-<carousel :items="1">
-
-    <img src="https://placeimg.com/200/200/any?1">
-
-    <img src="https://placeimg.com/200/200/any?2">
-
-    <img src="https://placeimg.com/200/200/any?3">
-
-    <img src="https://placeimg.com/200/200/any?4">
-
-</carousel>
 
 
  </div>
@@ -103,26 +93,38 @@
 </template>
 <script>
 
-import carousel from 'vue-owl-carousel'
-
-export default {
- components: { carousel }
-//    data() {
-//         return {
-
-//         }
-
-//     },
-
-
-//    computed: {
-
-//     },
-//      methods: {
-
-//     },
-
-
-
-};
+ export default {
+    data() {
+      return {
+        data: [
+            '<div class="example-slide">   <img src="images/datasave/1.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/2.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/3.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/4.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/5.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/6.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/7.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/8.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/9.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/10.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/11.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/12.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/13.jpg" alt="" class="img-fluid"></div>',
+            '<div class="example-slide">   <img src="images/datasave/14.jpg" alt="" class="img-fluid"></div>',
+        ],
+      };
+    },
+  };
 </script>
+<style>
+  .example-slide {
+    align-items: center;
+    /* background-color: rgb(192, 192, 192); */
+    /* color: #999; */
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    min-height: 30rem;
+
+  }
+</style>
