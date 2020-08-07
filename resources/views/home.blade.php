@@ -36,7 +36,7 @@
                              <span class="subheading">Hello! This is Profile</span>
                             <h1 class="mb-4 mt-3">Hi, I am <span>Apidet</span> This is my favorite work.</h1>
                             <h1 class="mb-4 mt-3">Web <span>Developer</span> </h1>
-                            <p><a href="#" class="btn btn-primary">Hire me</a> <a href="#" class="btn btn-primary btn-outline-primary">Download CV</a></p>
+                        <p><a href="#" class="btn btn-primary">Hire me</a> <a href="{{ route('detali.cv') }}" class="btn btn-primary btn-outline-primary">Download CV</a></p>
                         </div>
                     </div>
                 </div>

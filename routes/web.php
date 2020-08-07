@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Storage;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +25,16 @@ Route::get('clocktime', function () {
 Route::get('shop', function () {
     return view('shop');
 })->name('detali.shop');
+Route::get('dowload', function () {
+    
+    $file= public_path(). "/images/Resume.jpg";
+
+    $headers = array(
+              'Content-Type: application/img',
+            );
+
+    return Response::download($file, 'Resume.jpg', $headers);
+})->name('detali.cv');
 
 
 Auth::routes();

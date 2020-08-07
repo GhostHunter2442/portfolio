@@ -3196,7 +3196,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -40709,7 +40708,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("p", [_vm._v("1. Bootstrap 4")]),
         _vm._v(" "),
-        _c("p", [_vm._v("2. Codeigniter")]),
+        _c("p", [_vm._v("2. Laravel+Vue")]),
         _vm._v(" "),
         _c("p", [_vm._v("3. jQuery")]),
         _vm._v(" "),
