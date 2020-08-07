@@ -22,6 +22,9 @@ Route::get('savedata', function () {
 Route::get('clocktime', function () {
     return view('clocktime');
 })->name('detali.clocktime');
+Route::get('shop', function () {
+    return view('shop');
+})->name('detali.shop');
 
 
 Auth::routes();

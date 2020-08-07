@@ -9,6 +9,7 @@ Vue.use(VueCarousel);
 Vue.use(VueYoutube)
 Vue.component('save-data', require('./components/Savedata.vue').default);
 Vue.component('clock-time', require('./components/Clocktime.vue').default);
+Vue.component('shop-data', require('./components/Shop.vue').default);
 
 
 const app = new Vue({

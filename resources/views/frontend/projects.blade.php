@@ -12,7 +12,7 @@
                 <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
                     <div class="overlay"></div>
                     <div class="text text-center p-4">
-                        <h3><a href="#">Watch &amp; Shopping</a></h3>
+                        <h3><a href="{{route('detali.shop')}}">Watch &amp; Shopping</a></h3>
                         <span>Web Design</span>
                     </div>
                 </div>
