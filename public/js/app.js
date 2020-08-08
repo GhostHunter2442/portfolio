@@ -3196,12 +3196,57 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       data_font: ['<div class="example-slide">   <img src="images/shop/font/1.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/2.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/3.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/4.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/5.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/6.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/7.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/8.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/9.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/10.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/11.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/12.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/13.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/14.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/15.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/16.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/17.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/18.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/19.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/20.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/21.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/font/22.png" alt="" class="img-fluid"></div>'],
       data_end: ['<div class="example-slide">   <img src="images/shop/back/1.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/2.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/3.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/4.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/5.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/6.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/7.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/8.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/9.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/10.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/11.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/12.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/13.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/14.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/15.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/16.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/17.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/18.png" alt="" class="img-fluid"></div>', '<div class="example-slide">   <img src="images/shop/back/19.png" alt="" class="img-fluid"></div>'],
-      videoId: '4nd8fmUF8yg',
+      video_intro: 'hWPdYt64m_U',
+      video_backend: 'FDJSOPgDtOM',
+      video_omise: 'VCaWzDWJqew',
+      video_track: 'uUWmt0scIRc',
+      video_stock: 'jFLRAq73bfY',
+      video_coupon: 'gXNwyg63Wac',
+      video_review: '8qxsJe6y_IE',
       //    host: 'https://www.youtube.com',
       playerVars: {
         origin: window.location.origin,
@@ -40554,15 +40599,97 @@ var render = function() {
             { staticClass: "sidebar-box ftco-animate" },
             [
               _c("h3", { staticClass: "heading-sidebar" }, [
-                _vm._v("ตัวอย่างวีดีโอใช้งาน")
+                _vm._v("ตัวอย่างวีดีโอใช้งานหน้าร้านเบื้องต้น")
               ]),
               _vm._v(" "),
               _c("youtube", {
                 attrs: {
-                  "video-id": _vm.videoId,
+                  "video-id": _vm.video_intro,
                   "player-vars": _vm.playerVars
                 }
               })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v("ตัวอย่างวีดีโอใช้งานหลังร้าน สต๊อก รับออเดอร์ ")
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_backend } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v("ตัวอย่างวีดีโอใช้งานระบบ ตัวบัตรเครดิต ")
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_omise } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v(
+                  "ตัวอย่างวีดีโออัพเลข พัสดุเข้าระบบ เเละติดตามสถานะสินค้า"
+                )
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_track } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v("ตัวอย่างวีดีโอ การตัดสต๊อกหน้าร้าน เเละยกเลิกสินค้า")
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_stock } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v(
+                  "ตัวอย่างวีดีโอ การสร้าง คูปองส่วนลด เเละสินค้าที่ร่วมรายการ"
+                )
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_coupon } })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "sidebar-box ftco-animate" },
+            [
+              _c("h3", { staticClass: "heading-sidebar" }, [
+                _vm._v("ตัวอย่างวีดีโอ ให้คะเเนนสินค้า")
+              ]),
+              _vm._v(" "),
+              _c("youtube", { attrs: { "video-id": _vm.video_review } })
             ],
             1
           )
@@ -40729,7 +40856,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "tag-cloud-link",
-              attrs: { href: "https://product.dataghosthunter.com/" }
+              attrs: { href: "https://shopping.dataghosthunter.com/" }
             },
             [_vm._v("Link Test Systems")]
           )
@@ -40747,7 +40874,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "block-21 mb-4 d-flex" }, [
         _c("a", {
           staticClass: "blog-img mr-4",
-          staticStyle: { "background-image": "url(images/work-3.jpg)" }
+          staticStyle: { "background-image": "url(images/work-1-1.jpg)" }
         }),
         _vm._v(" "),
         _c("div", { staticClass: "text" }, [
@@ -40759,7 +40886,7 @@ var staticRenderFns = [
             _c("div", [
               _c("a", { attrs: { href: "javascript:;" } }, [
                 _c("span", { staticClass: "icon-calendar" }),
-                _vm._v(" Username : admin")
+                _vm._v(" Username : admin@gmail.com")
               ])
             ]),
             _c("br"),
@@ -40777,19 +40904,49 @@ var staticRenderFns = [
       _c("div", { staticClass: "block-21 mb-4 d-flex" }, [
         _c("a", {
           staticClass: "blog-img mr-4",
-          staticStyle: { "background-image": "url(images/work-3-2.jpg)" }
+          staticStyle: { "background-image": "url(images/work-1-2.jpg)" }
         }),
         _vm._v(" "),
         _c("div", { staticClass: "text" }, [
           _c("h3", { staticClass: "heading" }, [
-            _c("a", { attrs: { href: "#" } }, [_vm._v("user ")])
+            _c("a", { attrs: { href: "#" } }, [_vm._v("employee ")])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "meta" }, [
             _c("div", [
               _c("a", { attrs: { href: "#" } }, [
                 _c("span", { staticClass: "icon-calendar" }),
-                _vm._v("Username : user1")
+                _vm._v("Username : employee@gmail.com")
+              ])
+            ]),
+            _c("br"),
+            _vm._v(" "),
+            _c("div", [
+              _c("a", { attrs: { href: "#" } }, [
+                _c("span", { staticClass: "icon-person" }),
+                _vm._v(" Password : 123456 ")
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "block-21 mb-4 d-flex" }, [
+        _c("a", {
+          staticClass: "blog-img mr-4",
+          staticStyle: { "background-image": "url(images/work-1-3.jpg)" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "text" }, [
+          _c("h3", { staticClass: "heading" }, [
+            _c("a", { attrs: { href: "#" } }, [_vm._v("customer")])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "meta" }, [
+            _c("div", [
+              _c("a", { attrs: { href: "#" } }, [
+                _c("span", { staticClass: "icon-calendar" }),
+                _vm._v("Username : customer@gamil.com")
               ])
             ]),
             _c("br"),

@@ -53,7 +53,7 @@
         </div> <!-- .col-md-8 -->
         <div class="tag-widget post-tag-container mb-5 mt-5">
             <div class="tagcloud">
-              <a href="https://product.dataghosthunter.com/" class="tag-cloud-link">Link Test Systems</a>
+              <a href="https://shopping.dataghosthunter.com/" class="tag-cloud-link">Link Test Systems</a>
 
             </div>
           </div>
@@ -61,24 +61,33 @@
         <div class="sidebar-box ftco-animate">
           <h3 class="heading-sidebar">ทดสอบระบบ</h3>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/work-3.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/work-1-1.jpg);"></a>
             <div class="text">
               <h3 class="heading"><a href="javascript:;">admin </a></h3>
               <div class="meta">
-                <div><a href="javascript:;"><span class="icon-calendar"></span> Username : admin</a></div><br>
+                <div><a href="javascript:;"><span class="icon-calendar"></span> Username : admin@gmail.com</a></div><br>
                 <div><a href="javascript:;"><span class="icon-person"></span>Password : 123456</a></div>
 
               </div>
             </div>
           </div>
-          <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/work-3-2.jpg);"></a>
+              <div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" style="background-image: url(images/work-1-2.jpg);"></a>
             <div class="text">
-              <h3 class="heading"><a href="#">user </a></h3>
+              <h3 class="heading"><a href="#">employee </a></h3>
               <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span>Username : user1</a></div><br>
+                <div><a href="#"><span class="icon-calendar"></span>Username : employee@gmail.com</a></div><br>
                 <div><a href="#"><span class="icon-person"></span> Password : 123456 </a></div>
-
+              </div>
+            </div>
+          </div>
+          <div class="block-21 mb-4 d-flex">
+            <a class="blog-img mr-4" style="background-image: url(images/work-1-3.jpg);"></a>
+            <div class="text">
+              <h3 class="heading"><a href="#">customer</a></h3>
+              <div class="meta">
+                <div><a href="#"><span class="icon-calendar"></span>Username : customer@gamil.com</a></div><br>
+                <div><a href="#"><span class="icon-person"></span> Password : 123456 </a></div>
               </div>
             </div>
           </div>
@@ -99,9 +108,39 @@
         </div>
 
             <div class="sidebar-box ftco-animate">
-                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอใช้งาน</h3>
-        <youtube :video-id="videoId"   :player-vars="playerVars"></youtube>
-  </div>
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอใช้งานหน้าร้านเบื้องต้น</h3>
+             <youtube :video-id="video_intro"   :player-vars="playerVars"></youtube>
+            </div>
+
+             <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอใช้งานหลังร้าน สต๊อก รับออเดอร์ </h3>
+             <youtube :video-id="video_backend"   ></youtube>
+            </div>
+
+             <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอใช้งานระบบ ตัวบัตรเครดิต </h3>
+             <youtube :video-id="video_omise"   ></youtube>
+            </div>
+
+              <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโออัพเลข พัสดุเข้าระบบ เเละติดตามสถานะสินค้า</h3>
+             <youtube :video-id="video_track"   ></youtube>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอ การตัดสต๊อกหน้าร้าน เเละยกเลิกสินค้า</h3>
+             <youtube :video-id="video_stock"   ></youtube>
+            </div>
+
+             <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอ การสร้าง คูปองส่วนลด เเละสินค้าที่ร่วมรายการ</h3>
+             <youtube :video-id="video_coupon"   ></youtube>
+            </div>
+
+              <div class="sidebar-box ftco-animate">
+                 <h3 class="heading-sidebar">ตัวอย่างวีดีโอ ให้คะเเนนสินค้า</h3>
+             <youtube :video-id="video_review"   ></youtube>
+            </div>
       </div>
 
 
@@ -162,7 +201,14 @@
             '<div class="example-slide">   <img src="images/shop/back/18.png" alt="" class="img-fluid"></div>',
             '<div class="example-slide">   <img src="images/shop/back/19.png" alt="" class="img-fluid"></div>',
         ],
-        videoId: '4nd8fmUF8yg',
+        video_intro: 'hWPdYt64m_U',
+        video_backend: 'FDJSOPgDtOM',
+        video_omise: 'VCaWzDWJqew',
+        video_track: 'uUWmt0scIRc',
+        video_stock: 'jFLRAq73bfY',
+        video_coupon: 'gXNwyg63Wac',
+         video_review: '8qxsJe6y_IE',
+
 
     //    host: 'https://www.youtube.com',
         playerVars: {
