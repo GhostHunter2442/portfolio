@@ -14,7 +14,12 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <span class="subheading">My Intro</span>
                             <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <p>
+                                To work in a challenging environment that would lead to the fulfillment of both Corporate and  personal goals.
+                                I aspire to occupy a reasona	 ble and challenging position in the software field as a Web/UI/UX & Programmer. I currently
+                                looking to progressive firm that will allow me to
+                                  utilize my unique skills in the field of technology and design.
+                            </p>
 
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Name:</span> <span>Apidet Keodpakprak</span></li>

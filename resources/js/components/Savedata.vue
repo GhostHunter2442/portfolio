@@ -39,8 +39,8 @@
           <p>6. รายงานสรุป โปรเจค  hardware/software </p>
 
           <h2 class="mb-3 mt-5">รายละเอียดด้านการพัฒนา</h2>
-          <p>1. Bootstrap 4</p>
-          <p>2. Codeigniter</p>
+          <p>1. Codeigniter</p>
+          <p>2. Bootstrap 4</p>
           <p>3. jQuery</p>
           <p>4. javascript</p>
 

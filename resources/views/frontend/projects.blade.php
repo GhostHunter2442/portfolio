@@ -4,7 +4,7 @@
             <div class="col-md-12 heading-section text-center ftco-animate">
                 <span class="subheading">Accomplishments</span>
                 <h2 class="mb-4">Our Projects</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <p>You can see the work I add to my Projects</p>
             </div>
         </div>
         <div class="row">

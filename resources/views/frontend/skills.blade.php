@@ -4,7 +4,7 @@
             <div class="col-md-12 heading-section text-center ftco-animate">
                 <span class="subheading">Skills</span>
                 <h2 class="mb-4">My Skills</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <p>SKILL Language Programming Introduction</p>
             </div>
         </div>
         <div class="row progress-circle mb-5">
