@@ -13,30 +13,13 @@ use Illuminate\Support\Facades\Storage;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('show.home');
-Route::get('savedata', function () {
-    return view('savedata');
-})->name('detali.hardandsoft');
-Route::get('clocktime', function () {
-    return view('clocktime');
-})->name('detali.clocktime');
-Route::get('shop', function () {
-    return view('shop');
-})->name('detali.shop');
-Route::get('dowload', function () {
-    
-    $file= public_path(). "/images/Resume.jpg";
+Route::get('/', 'PostController@index')->name('show.home');
+Route::get('/savedata', 'PostController@savedata')->name('detali.hardandsoft');
+Route::get('/clocktime', 'PostController@clocktime')->name('detali.clocktime');
+Route::get('/clocktime', 'PostController@clocktime')->name('detali.clocktime');
+Route::get('/shop', 'PostController@shop')->name('detali.shop');
+Route::get('/dowload', 'PostController@dowload')->name('detali.cv');
 
-    $headers = array(
-              'Content-Type: application/img',
-            );
+// Auth::routes();
 
-    return Response::download($file, 'Resume.jpg', $headers);
-})->name('detali.cv');
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');

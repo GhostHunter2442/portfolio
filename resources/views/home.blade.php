@@ -65,7 +65,7 @@
                         <span class="flaticon-coffee"></span>
                     </div>
                     <div class="text">
-                        <strong class="number" data-number="20">0</strong>
+                    <strong class="number" data-number="{{ $post->view_count }}">0</strong>
                         <span>Cups of coffee</span>
                     </div>
                 </div>
