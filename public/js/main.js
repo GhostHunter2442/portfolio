@@ -317,3 +317,27 @@ $(function() {
 
 });
 
+function intToString (value) {
+    var suffixes = ["", "k", "m", "b","t"];
+    var suffixNum = Math.floor((""+value).length/3);
+    var shortValue = parseFloat((suffixNum != 0 ? (value / Math.pow(1000,suffixNum)) : value).toPrecision(2));
+    if (shortValue % 1 != 0) {
+        shortValue = shortValue.toFixed(1);
+    }
+    return shortValue+suffixes[suffixNum];
+}
+
+ 
+
+var value_shop = document.getElementById("value_shop").value;
+var check_shop = value_shop >= 1000 ? intToString(value_shop) : value_shop;
+document.getElementById("shop").innerHTML = ' '+check_shop;
+
+var value_clocktime = document.getElementById("value_clocktime").value;
+var check_clocktime = value_clocktime >= 1000 ? intToString(value_clocktime) : value_clocktime;
+document.getElementById("clocktime").innerHTML = ' '+check_clocktime;
+
+var value_hardandsoft = document.getElementById("value_hardandsoft").value;
+var check_hardandsoft = value_hardandsoft >= 1000 ? intToString(value_hardandsoft) : value_hardandsoft;
+document.getElementById("hardandsoft").innerHTML = ' '+check_hardandsoft;
+

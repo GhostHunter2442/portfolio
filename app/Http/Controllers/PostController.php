@@ -12,27 +12,49 @@ class PostController extends Controller
 {
     public function index(){
 
-        $post = Post::where('slug','home')->first();
+        $post_home = Post::where('slug','home')->first();
+        $post_savedata = Post::where('slug','savedata')->first();
+        $post_clocktime = Post::where('slug','clocktime')->first();
+        $post_shop = Post::where('slug','shop')->first();
+        $Key = 'blog' . $post_home->id;
+        if (!Session::has($Key)) {
+           $post_home->increment('view_count', 1);
+           Session::put($Key, 1);
+       }
+
+        return view('home',compact('post_home','post_savedata','post_clocktime','post_shop'));
+    }
+
+    public function savedata(){
+
+        $post = Post::where('slug','savedata')->first();
         $Key = 'blog' . $post->id;
         if (!Session::has($Key)) {
-
-
            $post->increment('view_count', 1);
            Session::put($Key, 1);
        }
 
-        return view('home',compact('post'));
-    }
-
-    public function savedata(){
         return view('savedata');
+
     }
 
     public function clocktime(){
+        $post = Post::where('slug','clocktime')->first();
+        $Key = 'blog' . $post->id;
+        if (!Session::has($Key)) {
+           $post->increment('view_count', 1);
+           Session::put($Key, 1);
+       }
         return view('clocktime');
     }
 
     public function shop(){
+        $post = Post::where('slug','shop')->first();
+        $Key = 'blog' . $post->id;
+        if (!Session::has($Key)) {
+           $post->increment('view_count', 1);
+           Session::put($Key, 1);
+       }
         return view('shop');
     }
 
