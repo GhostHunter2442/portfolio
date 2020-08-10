@@ -57,7 +57,4 @@
     </div>
 </section>
 
-<script>
-
-
-</script>
+ 

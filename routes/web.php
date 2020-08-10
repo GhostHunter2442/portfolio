@@ -23,3 +23,18 @@ Route::get('/dowload', 'PostController@dowload')->name('detali.cv');
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/clear', function() {
+
+    Artisan::call('cache:clear');
+    Artisan::call('config:clear');
+    Artisan::call('config:cache');
+    Artisan::call('view:clear');
+
+    return "Cleared!";
+
+ });
+ Route::get('/foo', function () {
+     Artisan::call('storage:link');
+    return "linked!";
+
+ });
