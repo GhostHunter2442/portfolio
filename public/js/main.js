@@ -327,7 +327,9 @@ function intToString (value) {
     return shortValue+suffixes[suffixNum];
 }
 
- 
+var value_shop = document.getElementById("value_booking").value;
+var check_shop = value_shop >= 1000 ? intToString(value_shop) : value_shop;
+document.getElementById("booking").innerHTML = ' '+check_shop;
 
 var value_shop = document.getElementById("value_shop").value;
 var check_shop = value_shop >= 1000 ? intToString(value_shop) : value_shop;

@@ -9,6 +9,23 @@
         </div>
         <div class="row">
             <div class="col-md-3">
+                <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-0.jpg);">
+                    <div class="overlay"></div>
+                    <div class="text text-center p-4">
+                        <h3><a href="{{route('detali.booking')}}">Hotel &amp; Booking</a></h3>
+                        <span>Web Design</span>
+                        <div class="view-eye">
+                            <a href="javascript:;"><i class="fa fa-eye" aria-hidden="true" id="booking" ></i></a>
+                            <input type="hidden" id="value_booking" value="{{$post_booking->view_count}}">
+                           </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="col-md-3">
                 <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
                     <div class="overlay"></div>
                     <div class="text text-center p-4">
@@ -57,4 +74,4 @@
     </div>
 </section>
 
- 
+

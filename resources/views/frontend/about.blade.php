@@ -27,7 +27,7 @@
                                 <li class="d-flex"><span>Address:</span> <span> Pak Prak,Don Sak, Surat Thani</span></li>
                                 <li class="d-flex"><span>Zip code:</span> <span>84340</span></li>
                                 <li class="d-flex"><span>Email:</span> <span>apidetkeodpakprak@gmail.com</span></li>
-                                <li class="d-flex"><span>Phone: </span> <span>080-69-06003</span></li>
+                                <li class="d-flex"><span>Phone: </span> <span>080-690-6003</span></li>
                             </ul>
                         </div>
                         <div class="col-md-12">

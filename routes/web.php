@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Storage;
 Route::get('/', 'PostController@index')->name('show.home');
 Route::get('/savedata', 'PostController@savedata')->name('detali.hardandsoft');
 Route::get('/clocktime', 'PostController@clocktime')->name('detali.clocktime');
-Route::get('/clocktime', 'PostController@clocktime')->name('detali.clocktime');
+Route::get('/booking', 'PostController@booking')->name('detali.booking');
 Route::get('/shop', 'PostController@shop')->name('detali.shop');
 Route::get('/dowload', 'PostController@dowload')->name('detali.cv');
 
